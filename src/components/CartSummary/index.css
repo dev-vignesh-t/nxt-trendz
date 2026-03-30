@@ -1,28 +1,106 @@
-/* Write your CSS here */
+.popup-container {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 420px;
+  font-family: 'Roboto', sans-serif;
+}
 .cart-summary {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  margin-bottom: 10px;
-}
-.order-total-color {
-  color: black;
-}
-.order-total {
-  color: grey;
-  font-size: 30px;
-  padding-bottom: 0px;
-}
-.items-count {
-  font-size: 20px;
-  color: grey;
 }
 .checkout-btn {
-  width: 100%;
-  background-color: blue;
   color: white;
-  font-size: 15px;
+  background-color: #0967d2;
+  width: 100%;
   border: none;
-  padding: 5px;
+  font-size: 15px;
   border-radius: 5px;
+  font-family: "Roboto";
+  padding: 5px;
+
+}
+.popup-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 12px;
+}
+
+.payment-method-heading,
+.summary-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-label {
+  font-size: 15px;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.disabled-label {
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.order-summary {
+  margin: 12px 0;
+}
+
+.summary-text {
+  font-size: 15px;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.summary-text span {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.confirm-order-btn {
+  margin-top: 16px;
+  width: 100%;
+  padding: 12px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.confirm-order-btn:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.order-success-msg {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #16a34a;
+  text-align: center;
+  padding: 12px;
+  background-color: #dcfce7;
+  border-radius: 8px;
 }
