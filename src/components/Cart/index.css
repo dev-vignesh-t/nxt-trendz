@@ -38,3 +38,10 @@
 }
 
 /* Write your CSS here */
+.remove-all-btn {
+  background: transparent;
+  color: blue;
+  width: 100px;
+  border: none;
+  align-self: flex-end;
+}

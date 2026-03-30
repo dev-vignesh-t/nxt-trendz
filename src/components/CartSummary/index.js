@@ -14,7 +14,7 @@ const CartSummary = () => (
       return (
         <div className="cart-summary">
           <h1 className="order-total">
-            Order Total: <span>Rs {total}/-</span>
+            Order Total: <span className="order-total-color">Rs {total}/-</span>
           </h1>
           <p className="items-count">{cartList.length} Items in cart</p>
           <button type="button" className="checkout-btn">

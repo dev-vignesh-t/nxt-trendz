@@ -1,1 +1,29 @@
 /* Write your CSS here */
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-bottom: 10px;
+
+}
+.order-total-color {
+  color: black;
+}
+.order-total {
+  color: grey;
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+.items-count {
+  font-size: 20px;
+  color: grey;
+}
+.checkout-btn {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
